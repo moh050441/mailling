@@ -1,0 +1,33 @@
+.email-icon {
+    display: inline-block;
+    font-size: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
+    animation: rotateIcon 12s linear infinite;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    background: linear-gradient(45deg, #405DE6, #833AB4, #FD1D1D, #F56040, #FFDC80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.email-icon i {
+    background: -webkit-linear-gradient(45deg, #405DE6, #833AB4, #FD1D1D, #F56040, #FFDC80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.email-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+}
+
+@keyframes rotateIcon {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
