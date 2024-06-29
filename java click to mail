@@ -1,3 +1,3 @@
 function sendEmail() {
-    window.location.href = "mailto:example@example.com?subject=Subject%20Here&body=Message%20Body";
+    window.location.href = "mohammed.ibra9858@gmail.com?subject=Subject%20Here&body=Message%20Body";
 }
